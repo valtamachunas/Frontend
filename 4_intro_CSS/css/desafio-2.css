@@ -1,0 +1,18 @@
+#box-model {
+    margin: 30px 10px;
+    padding: 15px;
+    border: 6px double #ff46e9;
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+    background-color: #ff8be2;
+    color: #3d06aa;
+    font-size: 20px;
+    outline: 6px double #8dd193;
+}
+
+.texto {
+    background-color: #8dd193;
+    color: #3d06aa;
+
+}

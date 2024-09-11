@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- a cor das tags p estão da cor burlywood porque a tag style está sendo lida depois da tag link, prevalece o que é lido por ultimo quando há regras conflitantes -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/lista.css" />
+    <!-- <style>
+        p {
+            color: burlywood;
+            font-size: 30px;
+            background-color: antiquewhite;
+        }
+    </style> -->
+</head>
+
+<body>
+    <h1 style="color:pink;">Mudar a cor com inline css</h1>
+    <h1>Sem mudar a cor</h1>
+    <h1 style="color: chartreuse;font-size:50px;border-bottom: 5px solid pink;">Texto com cor e tamanho alterados</h1>
+
+    <p>Fui estilizado pelo modo css internal</p>
+    <p>Mais um</p>
+    <p>Outro</p>
+
+    <h3>Meu Titulo Rosa</h3>
+
+    <p>Ordem do CSS</p>
+
+    <ul>
+        <li>Melancia</li>
+        <li>Avocado</li>
+        <li>Mexerica</li>
+    </ul>
+
+    <p class="paragrafo">Primeiro</p>
+    <p class="paragrafo">Segundo</p>
+    <p class="paragrafo">Terceiro</p>
+
+    <h1 id="exclusivo">Este é um título com id</h1>
+
+    <h2 id="algum-titulo" class="titulo">Algum texto 1</h2>
+    <h2 class="titulo">Algum texto 2</h2>
+    <h2>Algum texto 3</h2>
+
+    <!-- Exemplo de position stick -->
+    <div class="stick">
+        <span>Sou um stick</span>
+    </div>
+
+    <p class="color-name">Qualquer texto para nomes de cores</p>
+    <!-- p.color-name e apertar tab para formar a tag com a classe já-->
+
+    <p class="hex">Qualquer texto para nomes de cores</p>
+
+    <p class="rgb">Cor em rgb</p>
+
+    <p class="rgba">Cor em rgba</p>
+
+    <p class="hsl">Cor em HSL</p>
+
+    <div class="bg-opacidade">Estou aqui</div>
+
+    <div class="rgba-opacidade">
+        <h1>Estou aqui visivel</h1>
+    </div>
+
+    <h1 class="titulo-img">Este titulo tem uma imagem</h1>
+
+    <div class="centralizado"></div>
+    <div class="nao-centralizado"></div>
+
+    <div class="altura-largura"></div>
+    <div class="altura-largura2"></div>
+
+    <div class="sem-padding">sem padding</div>
+    <div class="padding">com padding</div>
+
+    <p class="padding-individual">Padding individual</p>
+
+    <p class="shorthand-padding">Texto</p>
+    <p class="shorthand">Texto2</p>
+
+    <div class="sem-border-box">
+        <p>Texto sem</p>
+    </div>
+
+    <div class="border-box">
+        <p>Texto com</p>
+    </div>
+
+    <div class="border">Borda 1</div>
+    <div class="border-2">Borda 2</div>
+
+    <div class="arredondada">Borda arredondada</div>
+    <div class="arredondada-2">Borda arredondada 2</div>
+
+    <div class="margin">Eu tenho margem</div>
+    <div class="margin-top">Eu tenho margem no topo</div>
+    <div class="margin-shorthand">Utilizando shorthand</div>
+
+    <div class="box-model">
+        <p class="mudar">Eu tenho todos os elementos do box model</p>
+    </div>
+
+    <p class="text-aligned">Texto alinhado a direita</p>
+    <div class="container-center">
+        <h2>Estamos centralizados</h2>
+        <p>Algum texto</p>
+    </div>
+
+    <p class="underline">Eu tenho underline</p>
+    <p class="line-trough">Eu tenho um risco</p>
+    <a href="#" class="remove-underline">Sem underline</a>
+
+    <p class="upper">Este texto é em caixa alta</p>
+    <p class="lower">TRANSFORMO EM TEXTO LOWER</p>
+
+    <h2 class="spacing">Eu tenho um espaçamento maior entre as letras</h2>
+
+    <p class="serif">Serif fonte</p>
+    <p class="sans-serif">Sans Serif fonte</p>
+    <p class="monospace">Monospace fonte</p>
+    <p class="cursive">Cursive fonte</p>
+    <p class="fantasy">Fantasy fonte</p>
+
+    <p class="italico">Estou em Itálico</p>
+    <p class="obliquo">Estou em obliquo</p>
+
+    <p class="thin">Eu sou mais fino</p>
+    <p class="bold">Eu sou bold</p>
+    <p class="bolder">Eu sou a maior fonte</p>
+
+    <div class="inline-box">a</div>
+    <div class="inline-box">b</div>
+    <div class="inline-box">c</div>
+    <span class="block">1</span>
+    <span class="block">2</span>
+    <span class="block">3</span>
+
+    <p class="invisible">Escondido</p>
+
+    <div class="static">
+        <span>Eu sou estático</span>
+    </div>
+
+    <div class="relative">
+        <span>Eu sou relativo</span>
+    </div>
+    <p>Eu sou uma parágrafo</p>
+
+    <div class="absolute">
+        <span>Eu sou absolute</span>
+    </div>
+    <p>Eu sou uma parágrafo</p>
+
+    <div class="relative-container">
+        <div class="absolute-1"></div>
+        <div class="absolute-2"></div>
+    </div>
+
+    <div class="fixed">
+        <span>Estou fixo</span>
+    </div>
+
+    <div class="relative-container">
+        <div class="absolute-3"></div>
+        <div class="absolute-4"></div>
+        <div class="absolute-5"></div>
+    </div>
+
+</body>
+
+</html>

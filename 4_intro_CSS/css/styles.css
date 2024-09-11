@@ -1,0 +1,421 @@
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: palevioletred;
+}
+
+p {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.paragrafo {
+    color: rgb(255, 6, 147);
+    background-color: pink;
+}
+
+#exclusivo {
+    color: palevioletred;
+    background-color: plum;
+    font-size: 100px;
+}
+
+#algum-titulo {
+    border-bottom: 2px solid blue;
+}
+
+h2 {
+    border-bottom: 2px solid pink;
+}
+
+.titulo {
+    border-bottom: 2px solid yellowgreen;
+}
+
+.color-name {
+    color: violet
+}
+
+.hex {
+    color: #a3b2d9;
+}
+
+.rgb {
+    color: rgb(255, 120, 0);
+}
+
+.rgba {
+    color: rgba(30, 20, 100, 0.3);
+}
+
+.hsl {
+    color: hsl(200, 255%, 50%);
+}
+
+.bg-opacidade {
+    background-color: #a3b2d9;
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+.rgba-opacidade {
+    background-color: rgba(50, 120, 30, 0.2);
+    color: #000;
+}
+
+.titulo-img {
+    background-image: url(../img/7180300.jpg);
+    width: 500px;
+    color: rgb(255, 0, 217)
+}
+
+.nao-centralizado,
+.centralizado {
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/beautiful-rainbow-nature.jpg);
+}
+
+.centralizado {
+    background-position: center;
+    background-size: cover;
+}
+
+.nao-centralizado {
+    background-position: center;
+}
+
+.altura-largura {
+    height: 200px;
+    width: 100px;
+    background-color: blue;
+    /* naturalmente vem sem altura, então tem que colocar para o elemento ser exibido na tela */
+}
+
+.altura-largura2 {
+    background-color: blueviolet;
+    height: 300px;
+}
+
+.sem-padding {
+    background-color: #000;
+    color: #fff
+}
+
+.padding,
+.padding {
+    background-color: #000;
+    color: #fff
+}
+
+.padding {
+    padding: 20px;
+    background-color: #f5c5e5;
+}
+
+.padding-individual {
+    color: #fff;
+    background-color: #f255a4b5;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+.shorthand-padding {
+    background-color: #2ca3e3;
+    padding: 10px 5px 7px 8px;
+    color: #fff;
+}
+
+.shorthand {
+    background-color: #ef41b5;
+    color: #fff;
+    padding: 20px 5px;
+    width: 400px;
+}
+
+.sem-border-box {
+    background-color: #f76fd0;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #b90285;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+    /* o box sizing border-box faz com que seja respeitado o tamanho escolhido no width e mesmo assim adiciona o padding, sem ele, só adiciona o padding ao valor do width */
+}
+
+.border {
+    border: 5px solid #ef41b5;
+    padding: 10px;
+}
+
+.border-2 {
+    border: 5px dotted #e47;
+    padding: 10px;
+}
+
+/* border-radius para arredondar as bordas do elemento */
+.arredondada {
+    border: 4px double rgb(255, 148, 194);
+    background-color: #2ca3e3;
+    color: black;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.arredondada-2 {
+    background-color: #2ca3e3;
+    color: black;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.margin {
+    margin: 30px;
+    background-color: #ef41b5;
+}
+
+.margin-top {
+    margin-top: 50px;
+    background-color: #a3b2d9;
+}
+
+.margin-shorthand {
+    margin: 10px 20px;
+    background-color: #f5c5e5;
+}
+
+/* todos elementos do box-model */
+.box-model {
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    border: 4px double #f76fd0;
+    border-radius: 7px;
+}
+
+.mudar {
+    background-color: #fff;
+    font-size: 20px;
+    color: #ff00dd;
+}
+
+.text-aligned {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    font-size: 30px;
+    border: 5px solid pink;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.spacing {
+    letter-spacing: 7px;
+}
+
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sans-serif {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.italico {
+    font-style: italic;
+}
+
+.obliquo {
+    font-style: oblique;
+}
+
+.thin,
+.bold,
+.bolder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/* inline os elementos ficam um do lado do outro e block eles quebram as linhas, por padrão a div é block e o span inline, ai já vem o tamanho padrão de cada elemento sendo os block maiorzinho*/
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #ef41b5;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    background-color: #ef41b5;
+    margin: 10px;
+    display: block;
+}
+
+/* display none esconde o elemento da tela */
+.invisible {
+    display: none;
+}
+
+/* por padrão a position dos elementos são static */
+.static {
+    position: static;
+    background-color: #f76fd0;
+    width: 100px;
+    height: 100px;
+}
+
+/* não é muito usado o relative */
+.relative {
+    position: relative;
+    background-color: #ff30c4;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 200px;
+}
+
+/* por padrão a tela toda na horizontal tem 900px */
+.absolute {
+    position: absolute;
+    background-color: #f500af;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* o relativo é posicionado na posição que o elemento ficaria na pagina mesmo e o absolute ele pega a referencia do relativo, por isso que é bom usar os dois juntos pq ai posiciona o elemento na tela com o relative e coloca o absolute pra deixar o elemento aonde quer (top,rigth,bottom,left) */
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 4px solid pink;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #f5c5e5;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* tem que usar o top,right,bottom,left em todas as position */
+.fixed {
+    width: 30px;
+    height: 30px;
+    border: 4px solid rgb(222, 110, 129);
+    background-color: #2ca3e3;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.stick {
+    width: 30px;
+    height: 30px;
+    border: 4px solid rgb(222, 110, 129);
+    background-color: #2ca3e3;
+    position: sticky;
+    top: 10px;
+    right: 10px;
+}
+
+/* z-index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #98f1ae;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #2ca3e3;
+}
+
+.absolute-5 {
+    top: 44px;
+    left: 44px;
+    background-color: #ff00dd;
+    z-index: 2;
+}
